@@ -1,0 +1,172 @@
+body{margin: 0px;}
+
+a{
+	display: inline-block;
+}
+header{
+	text-align: center;
+	color:#F7F4F4;
+	height:500px;
+	background: lightgreen url(../images/header-bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding-top:150px;
+}
+header p {
+	font-style: italic;
+}
+
+header h1{
+font-size: 60px;
+text-transform: uppercase;
+letter-spacing: 10px;
+color:#F7F4F4;
+}
+
+header a{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid white;
+	padding:10px 50px;
+	text-decoration: none;
+}
+
+header a:hover{
+	background: white;
+	color: black;
+}
+
+h1, h2, h3,h4 { 
+font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	color:black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-right:10px;
+}
+
+.logo {
+	color: red;
+	margin-right:30px;
+}
+
+.categories{
+	text-align: center;
+}
+
+.categories ul li {
+	width: 23%;
+	float:left;
+	list-style: none;
+	padding:0 1%;
+	margin-bottom: 20px;
+}
+
+.categories img {max-width: 100%
+}
+
+.categories ul{padding:0px;
+}
+
+.quote{
+	clear: both;
+}
+
+.btn {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid black;
+	padding:10px 50px;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background: black;
+	color: white;
+}
+.quote {
+	text-align: center;
+	color:#F7F4F4;
+	height:500px;
+	background: url(../images/quote-bg.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top:150px;
+}
+.quote {
+	font-style: italic;
+}
+
+.quote h1{
+font-size: 60px;
+text-transform: uppercase;
+letter-spacing: 10px;
+color:#F7F4F4;
+margin-bottom: 50px;
+}
+
+.quote a{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid white;
+	padding:10px 50px;
+	text-decoration: none;
+	margin-top: 20px;
+	display:inline-block;
+}
+
+.quote a:hover{
+	background: white;
+	color: black;
+}
+.featured {
+	text-align: center;
+}
+
+.featured ul li {
+	width: 31%;
+	float:left;
+	list-style: none;
+	padding:0 1%;
+	margin:0px;
+}
+
+.featured img {max-width: 100%
+}
+
+.featured ul{
+	padding: 0;
+}
+
+.featured h4{
+	text-align: center;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid black;
+	padding:10px 50px;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom:10px;
+
+}
+
+footer{
+	text-align: center;
+	background-color: black;
+	clear:both;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding: 20px 0;
+}
+
+footer img{
+	width:50px;
+	height:auto;
+}
+
+
